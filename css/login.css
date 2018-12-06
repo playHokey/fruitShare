@@ -1,0 +1,92 @@
+.login-wrapper {
+	background-image: url('../images/login_bg.png');
+	background-size: 100% 100%;
+
+	height: 100vh;
+	overflow: hidden;
+}
+.avatar-wrapper {
+	margin-top: 12vh;
+}
+.avatar {
+	width: 25vw;
+	height: 25vw;
+	border-radius: 50%;
+	background-color: blueviolet;
+}
+.avatar img {
+	width: 100%;
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+}
+.logo {
+	margin: 2vh;
+}
+.logo img {
+	width: 70vw;
+}
+.form-input .input-group {
+	border: 2px solid #cccccc;
+	margin: 2vh 0;
+	border-radius: 5px;
+}
+
+.form-input .input-group-addon,
+.form-input .form-control {
+	background-color: transparent;
+	height: 40px;
+}
+.input-group-addon {
+	border-right: none;
+	border: none;
+}
+.form-control {
+	border-left: none;
+	padding-left: 0px;
+	border: none;
+	color: #ffffff;
+}
+.form-control:focus {
+	box-shadow: none !important;
+	border-color: #cccccc;
+}
+.input-group-addon i {
+	color: #cccccc;
+}
+input::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: white !important;
+}
+input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: white !important;
+}
+input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: white !important;
+}
+input:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: white !important;
+}
+.forget-passwd {
+	color: #cccccc;
+}
+.btn-login {
+	margin: 2vh 0;
+	color: white;
+	border-radius: 20px;
+	background-color: #43ad1f;
+}
+.btn-login.focus,
+.btn-login:focus,
+.btn-login:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.checkbox {
+	color: white;
+}
+.checkbox a {
+	color: #43ad1f;
+}
