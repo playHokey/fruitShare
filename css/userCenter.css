@@ -31,10 +31,9 @@
 	position: relative;
 }
 .card {
-	position: absolute;
 	margin: 2vh 0;
 	background-color: #eff4eb;
-	box-shadow: -11px 14px 52px 1px rgba(217, 217, 217, 0.5);
+	box-shadow: -11px 14px 52px 1px rgba(217, 217, 217, 1);
 	z-index: 1;
 }
 .card-inner {
@@ -72,7 +71,6 @@
 
 .description-card .description {
 	height: 30vh;
-	margin-top: 43vh;
 	width: 85vw;
 	border-radius: 8px;
 	background-color: #ffffff;

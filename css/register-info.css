@@ -18,7 +18,7 @@
 }
 .information {
 	width: 94%;
-	padding-top: 3vh;
+	padding: 3vh 0;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	background-color: #ffffff;
@@ -164,4 +164,16 @@
 	text-align: center;
 	font-size: 13px;
 	color: #666;
+}
+.btn-login {
+	margin: 2vh 0;
+	color: white;
+	border-radius: 20px;
+	background-color: #43ad1f;
+}
+.btn-login.focus,
+.btn-login:focus,
+.btn-login:hover {
+	color: #ffffff;
+	text-decoration: none;
 }
