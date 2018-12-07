@@ -1,0 +1,121 @@
+.article-redesign {
+	color: #333333;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: antiquewhite;
+}
+/* 上部分卡片 */
+.article-header-card {
+	margin-top: 5vh;
+	height: 15vh;
+	width: 80vw;
+	border-radius: 8px;
+	background-image: url('../images/article_header-card-bg.png');
+	background-size: 100% 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.triangle-wrapper .icon-sanjiao {
+	color: #63b826;
+	margin-left: -1px;
+}
+/* 头像的样式 */
+
+.avatar {
+	width: 17vw;
+	height: 17vw;
+	margin-left: 2vw;
+	border-radius: 50%;
+}
+.avatar img {
+	width: 100%;
+	border-radius: 50%;
+}
+.author-description {
+	margin-left: 2vw;
+}
+.author-description .name {
+	font-size: 1.6rem;
+	line-height: 5vh;
+}
+@media screen and (max-width: 374px) {
+	.author-description .content {
+		font-size: 1rem;
+	}
+}
+@media screen and (min-width: 415px) and (max-width: 639px) {
+	html {
+		font-size: 16px;
+	}
+}
+/* 下部卡片 */
+.article-bottom-card-wrapper {
+	margin-top: 20vh;
+}
+.article-bottom-card {
+	width: 94vw;
+	padding-bottom: 2vh;
+	border-radius: 8px;
+	background-image: url('../images/article-bottom-card-bg.png');
+	background-size: 100% 100%;
+	background-color: white;
+
+	position: relative;
+}
+.article-header-card,
+.article-bottom-card {
+	box-shadow: -11px 14px 52px 1px rgba(217, 217, 217, 1);
+}
+/* 头像 */
+
+.article-bottom-card .avatar {
+	width: 22vw;
+	height: 22vw;
+	position: absolute;
+	left: 35vw;
+	top: -6vh;
+	border-radius: 50%;
+}
+.article-bottom-card .avatar img {
+	width: 100%;
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+}
+.article-bottom-card .name {
+	font-size: 1.6rem;
+	margin-top: 7vh;
+}
+.article-bottom-card .content {
+	margin-top: 1vh;
+}
+.article-bottom-card .contact {
+	height: auto;
+	margin-top: 2vh;
+}
+.contact .phone {
+	height: 18vh;
+	border: 1px dashed #63b826;
+	padding-top: 3vh;
+}
+.phone .icon-dianhua,
+.QR-code .icon-weixin {
+	font-size: 3rem;
+	color: #63b826;
+}
+.phone .phone-number {
+	font-size: 1.6rem;
+}
+
+.contact .QR-code {
+	height: 18vh;
+	border: 1px dashed #63b826;
+}
+.QR-code .qr-code-pic {
+	width: 10vh;
+	height: 10vh;
+	background-color: #63b826;
+}
