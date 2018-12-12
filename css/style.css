@@ -1,0 +1,221 @@
+body { font-family: 微软雅黑; -webkit-tap-highlight-color: transparent;width:100%;height:100%;-webkit-tap-highlight-color:transparent; -webkit-appearance: none; background:#fff;  font-size: 0.13rem; color:#333;}
+html{ width:100%;height:100%; background:#fff;}
+ul { margin:0;padding:0; list-style: none}
+select,input { -webkit-appearance: none;}
+input,button,select,textarea{outline:none} 
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 100px;
+    }
+}
+ 
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 112.5px;
+    }
+}
+ 
+@media screen and (min-width: 400px) {
+    html {
+        font-size: 125px;
+    }
+}
+ 
+@media screen and (min-width: 440px) {
+    html {
+        font-size: 137.5px;
+    }
+}
+ 
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 150px;
+    }
+}
+ 
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 200px;
+    }
+}
+br{ height:0px;}
+ 
+html {
+    font-size: 31.25vw;
+}
+
+
+strong,span,p,div,em{ font-size:0.13rem; font-style:normal;}
+a, a:hover, a:active {
+    color: #50b4f0;
+}
+a {
+    cursor: pointer;
+}
+a {
+    color:#607fa6;
+    text-decoration: none;
+}
+
+.ml10{ margin-left:0.1rem;}
+#container{ padding:0.2rem 0rem; background:#fff; padding-bottom:1rem; overflow:hidden;}
+.good_info1 .info2  { border-bottom: 1px solid #e7e7eb;
+    margin-bottom: 0.14rem;
+    padding-bottom: 10px;
+	  font-size:0.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+	overflow:hidden;
+	}
+.good_info1 {height:auto;background:#fff; padding:0 0.2rem;}
+.good_info2{ padding:0 0.1rem;}
+.good_info2 .menu {width:100%; padding:0.1rem; line-height:0.2rem;}
+.good_info2 .menu .nav {height:0.37rem; width:25%;  float:left; font-size:0.14rem; color:#666; text-align:center; line-height:0.37rem; border-bottom:0.02rem solid #e3e3e3;}
+.good_info2 .menu .navon {color:#ff6500; height:0.37rem; line-height:0.37rem; border-bottom:0.02rem solid #ff6500; }
+
+.good_info2 .tab_con {height:auto;padding:10px 0.1rem; overflow: hidden; font-size:0.16rem;}
+.good_info2 .tab_con .con {height:auto; display:none;color:#333;word-break:break-all;}
+.good_info2 .tab_con .con .param { padding:10px; border-bottom:1px solid #ccc}
+.good_info2 .tab_con #con_1 img { width:100%;outline-width:0px;  vertical-align:top; display:block}
+.rich_media_tool{ color:#666666;  line-height: 0.28rem;
+    overflow: hidden;
+	padding:0 0.2rem;
+    padding-top: 15px;
+	}
+	.rich_media_tool span,.rich_media_tool a{ display:inline-block; vertical-align:middle;}
+	.like{  height:0.28rem; display:inline-block; margin-left:0.1rem; cursor:pointer;background: rgba(0, 0, 0, 0) url("../images/p3.png") no-repeat scroll left center;vertical-align:middle; padding-left:0.24rem; line-height:0.28rem;}
+	.like:hover,.likeed{ text-decoration:none;background: rgba(0, 0, 0, 0) url("../images/p4.png") no-repeat scroll left center;}
+	
+	.praises-total {
+    background: rgb(247, 247, 247) url("../images/praise.png") no-repeat scroll 5px 5px;
+    height: 0.2rem;
+    line-height: 0.19rem;
+    margin: 0 0 0.1rem;
+    padding: 0.05rem 0 0.05rem 0.25rem;
+}
+	.good_copyright{ margin-top:0.2rem;}
+	
+.cpt_top{ border-top:1px dotted #e4e4e4; height:2px; position:relative;}
+.cpt_topt{ font-size:0.13rem; color:#999; position:absolute; left:50%; margin-left:-0.32rem; top:-0.1rem; display:block; height:0.2rem; line-height:0.2rem; background:#f3f3f3}
+.write_comt{ text-align:right; margin-top:0.2rem; height:0.2rem; line-height:0.2rem; margin-bottom:0.2rem;}
+.write_comt em{ display:inline-block; height:0.16rem;background: rgba(0, 0, 0, 0) url("../images/pen3.png") no-repeat; width:0.16rem; background-size:cover; vertical-align:-0.02rem; margin-left:0.04rem;}
+.fl
+{
+float:left;
+}
+.fr
+{
+float:right;
+}
+.cl
+{
+clear:both;
+}
+.clearfix {
+*zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+display: table;
+content: '';
+}
+.clearfix:after {
+clear: both;
+}
+.com_list_left{width:7%;} 
+.com_list_left img{ display:block; width:100%; border-radius:0.03rem;}
+.comt_list_li{ }
+.com_list_right{ width:91%;  color:#3e3e3e; line-height:0.24rem; }
+	 .com_list_right_li{border-bottom:1px solid #e9e9e9;	
+	 padding-bottom:0.1rem;
+	 margin-bottom:0.1rem;}
+	.com_list_right .like{ line-height:0.2rem; height:0.2rem;}
+.cname{ max-width:80%; color:#727272; height:0.18rem; line-height:0.2rem;}
+.cname_auth{border-left:4px solid #00b501;padding-left:4px;}
+.clist_r1{ padding:0px 0px 0.03rem;}
+.clist_r2{ padding:0.03rem 0px;}
+.clist_r3{ color:#ccc;/*background: rgba(0, 0, 0, 0) url(../images/bg1.jpg) no-repeat scroll left top;*/
+    color: #ccc;
+    height: 0.2rem;line-height:0.2rem; 
+	font-size:0.12rem;
+
+}
+.comment_content .cot_title{border-bottom: 1px solid #e7e7eb;
+    margin-bottom: 0.14rem;
+	padding:0px 0.2rem;
+	  font-size:0.18rem;
+    font-weight: 400;
+    line-height: 2;
+	margin-top:0.14rem;
+}
+input,textarea{
+    -webkit-appearance: none;
+}
+.comment_content{ }
+	.comment_content .cot_tx{ padding:10px 1%;border:none; border:1px solid #f5f5f5; width:100%; min-height:0.6rem; margin:0 auto; display:block; box-shadow:none;-webkit-appearance: none;resize:none; font-size:0.16rem;}
+	.comment_content .cot_btn{ margin:0 auto; width:98%; display:block; height:0.4rem; background:#32cd32; box-shadow:0 1px 0 0 #32cd32;border-radius:0.05rem; line-height:0.4rem; font-size:0.2rem; color:#fff; border:none; margin-top:0.2rem;}                             
+	.follow_topbar {height:44px; width:100%; background:rgba(0,0,0,0.8); position:fixed; top:0px; left:0px; z-index:999;}
+.follow_topbar .headimg {height:32px; width:32px; padding:6px; float:left;}
+.follow_topbar .headimg img {height:32px; width:32px;}
+.follow_topbar .info {height:28px; padding:8px 0px;}
+.follow_topbar .info .i {height:14px; line-height:14px; color:#ccc; font-size:12px;}
+.follow_topbar .info {height:40px; float:left;}
+.follow_topbar span {color:#ff6600}
+.follow_topbar .sub {height:24px; width:auto; background:#32cd32; padding:0px 10px; margin:10px 8px 10px 0px; float:right; font-size:12px; color:#fff; line-height:26px; border-radius:3px;}
+.comment_part{ padding:0 0.2rem 0.2rem; padding-top:0.3rem; margin-top:0.2rem; background:#f3f3f3;}
+.rich_media_meta_text{ color:#8c8c8c;}
+.rich_media_meta_nickname{color:#607fa6; margin-left:10px;}
+.mt20{ margin-top:0.2rem;}
+.del_ly{ margin-left:10px;}
+#container.comment{ background:#f3f3f3; overflow:hidden; padding-top:0px;}
+.comment .comment_content .cot_title
+{
+	border:none;
+}
+
+.good_copyright {font-size:14px; line-height:14px; padding:10px 0px; text-align:center; color:#aaa; padding-bottom:60px;}
+.comment .comment_part{ margin-top:0px;}
+.comment .good_info1{ padding:0px; background:none;}
+
+
+
+.news_list{ padding:0px;}
+.news_list li{ border-bottom:1px solid #ececec; padding:0.2rem;}
+.news_listl{ width:62%;}
+.news_listr{ width:32%;}
+.nll1{ color:#000; font-size:0.2rem; line-height:1.5;}
+.nll2{ color:#acacac;line-height:2;}
+.nrpic img{ width:100%; height:100%;}
+
+.contact_wrap{ color:#6c6a6a; line-height:2;}
+.cpt1{ padding:0.4rem 0.1rem; line-height:2; color:#6c6a6a; font-size:0.18rem;}
+.cptt1{ color:#43923f; font-size:0.24rem; line-height:0.4rem; }
+.cpt2{ border-top:2px solid #d3d3d3; background:#f0f0f0; padding-left:0.8rem; line-height:2; color:#6c6a6a; padding-bottom:0.3rem; font-size:0.18rem;}
+.cpt21{ padding-top:0.3rem;font-size:0.18rem;}
+.cpt22{ width:4rem; background:#0081d9; border-radius:0.2rem; height:0.6rem; line-height:0.6rem; font-size:0.3rem; color:#fff; text-align:center; margin-top:0.1rem;}
+.cpt3{ font-size:0.18rem;color:#6c6a6a; line-height:2; padding:0.2rem 10px; padding-left:20px; }
+.cpt31{ color:#16c166; font-size:0.18rem;}
+.cpt32{ color:#2a6dd4; font-size:0.16rem;}
+.contact-us-right{
+	overflow: hidden;
+	margin-top: 20px;
+	float: right;
+}
+.contact-us-detail{
+	margin-top: 14px;
+}
+.content-top{
+	text-align: center;
+	margin: 0 auto;
+}
+.contact-us{
+	margin-top: 20px;
+}
+.row{
+	text-align: center;
+	margin: 0 auto;
+	
+}
+.ctcus_ul li{ padding:10px;}
+.ctcus_name{ width:20%; text-align:right;}
+.ctcus_data{ width:70%; padding-left:10px;}
+.ctcus_data input{ line-height:24px; border:1px solid #f5f5f5; height:24px; width:98%; padding-left:2%;}
