@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="./plugins/icons/iconfont.css" />
 		<link href="https://cdn.bootcss.com/webuploader/0.1.1/webuploader.css" rel="stylesheet" />
 		<link rel="stylesheet" href="./css/register-info.css" />
+		<link rel="stylesheet" href="./js/distPicker/LArea.css" />
 		<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
 		<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
 		<!--[if lt IE 9]>
@@ -31,13 +32,13 @@
 				<div class="col-xs-12 ">
 					<form class="form-horizontal" role="form">
 						<div class="form-group">
-							<label for="firstname" class="col-xs-2 control-label">姓名</label>
+							<label for="firstname" class="col-xs-2 control-label">姓名<span style="color:red">*</span></label>
 							<div class="col-xs-10">
 								<input type="text" class="form-control" id="firstname" placeholder="请输入您的姓名" />
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="lastname" class="col-xs-2 control-label">性别</label>
+							<label for="lastname" class="col-xs-2 control-label">性别<span style="color:red">*</span> </label>
 							<div class="col-xs-10">
 								<div class="btn-groups" role="group" aria-label="...">
 									<label class="radio-inline btn-radio left-radio btn-active">
@@ -51,43 +52,48 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">生日</label>
-							<div class="col-xs-10"><input type="date" class="form-control" placeholder="请输入您的出生年月" /></div>
-						</div>
-						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">国家</label>
-							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的国家" /></div>
-						</div>
-						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">省</label>
-							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的所在省" /></div>
-						</div>
-						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">市</label>
-							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的所在市" /></div>
-						</div>
-						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">地址</label>
-							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的公司地址" /></div>
-						</div>
-						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">公司</label>
-							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的公司名称" /></div>
-						</div>
-						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">部门</label>
-							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的部门名称" /></div>
-						</div>
-						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">职务</label>
-							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的职务" /></div>
-						</div>
-						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">手机</label>
+							<label for="birth" class="col-xs-2 control-label">手机<span style="color:red">*</span></label>
 							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的手机号" /></div>
 						</div>
 						<div class="form-group">
-							<label for="birth" class="col-xs-2 control-label">微信</label>
+							<label for="birth" class="col-xs-2 control-label">邮箱<span style="color:red">*</span></label>
+							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的邮箱" /></div>
+						</div>
+						<div class="form-group">
+							<label for="birth" class="col-xs-2 control-label">公司<span style="color:red">*</span></label>
+							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的公司名称" /></div>
+						</div>
+						<div class="form-group">
+							<label for="birth" class="col-xs-2 control-label">部门<span style="color:red">*</span></label>
+							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的部门名称" /></div>
+						</div>
+						<div class="form-group">
+							<label for="birth" class="col-xs-2 control-label">职务<span style="color:red">*</span></label>
+							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的职务" /></div>
+						</div>
+						<div class="form-group">
+							<label for="birth" class="col-xs-2 control-label">地区<span style="color:red">*</span></label>
+							<div class="col-xs-10 content-block">
+								<input
+									class="form-control"
+									id="demo"
+									type="text"
+									readonly=""
+									placeholder="城市选择特效"
+									value="北京市,北京市,东城区"
+								/>
+								<input class="form-control" id="value" type="hidden" value="110000,110101,110101" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="birth" class="col-xs-2 control-label">地址<span>&nbsp;</span></label>
+							<div class="col-xs-10">
+								<input type="text" class="form-control" placeholder="请输入您公司的详细地址" />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="birth" class="col-xs-2 control-label">微信<span style="color:red">*</span></label>
 							<div class="col-xs-10"><input type="text" class="form-control" placeholder="请输入您的微信号" /></div>
 						</div>
 						<div class="form-group">
@@ -140,6 +146,9 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 		<script src="https://cdn.bootcss.com/webuploader/0.1.1/webuploader.min.js"></script>
 		<script src="./js/uploader/picUploader.min.js"></script>
+		<script src="./js/distPicker/city.data.min.js"></script>
+		<script src="./js/distPicker/LArea.js"></script>
+
 		<script>
 			$(function() {
 				$('.optionsRadios').click(function() {
@@ -167,6 +176,23 @@
 					});
 				});
 			});
+			/*******************
+			 * 地址选择初期化  *
+			 ******************
+			 */
+
+			var area = new LArea();
+			area.init({
+				trigger: '#demo', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+				valueTo: '#value', //选择完毕后id属性输出到该位置
+				keys: {
+					id: 'value',
+					name: 'text',
+				}, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+				type: 1, //数据源类型
+				data: LAreaData, //数据源
+			});
+			area.value = [1, 13, 3]; //控制初始位置，注意：该方法并不会影响到input的value
 		</script>
 	</body>
 </html>
