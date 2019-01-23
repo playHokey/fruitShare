@@ -4,7 +4,8 @@
 	position: absolute;
 	background-image: url('../images/register_info_bg.png');
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
 	padding-bottom: 10vh;
 }
 .header {
@@ -15,7 +16,10 @@
 	padding-left: 5vw;
 }
 .form-horizontal {
-	padding: 5px;
+	padding: 0 10px;
+	height: 79vh;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 .information {
 	width: 94%;
@@ -97,6 +101,7 @@
 .register-info .form-group label {
 	padding: 0px;
 	text-align: center;
+	/*padding-left:15px;*/
 }
 /* 图片上传插件 */
 .LUploader {
